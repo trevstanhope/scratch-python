@@ -1,0 +1,8 @@
+tags
+.coverage
+*.pyc
+*~
+_build/
+build/
+dist/
+reddit.egg-info/
