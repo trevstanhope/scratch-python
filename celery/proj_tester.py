@@ -16,7 +16,7 @@ print(state)
 event_id = event.id
 print(event_id)
 
-# Run subtask (long form) and countdown 10 seconds before executing
+# Run subtask (long form) and countdown 2 seconds before executing
 sub = add.subtask((2, 2), countdown=2)
 event = sub.delay()
 result = event.get()
