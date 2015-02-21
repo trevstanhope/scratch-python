@@ -1,4 +1,4 @@
-# bdalg-matlab.py - demonstrate some MATLAB commands for block diagram altebra
+# bdalg-matlab.py - demonstrate some MATLAB commands for block diagram algebra
 # RMM, 29 May 09
 
 from control.matlab import *    # MATLAB-like functions

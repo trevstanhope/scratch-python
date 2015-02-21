@@ -16,13 +16,15 @@ C = [[1., 0]]
 sys = ss(A, B, C, 0);
 
 # Step response for the system
+print "Step response for the system"
 figure(1)
 yout, T = step(sys)
 plot(T.T, yout.T)
 
 # Bode plot for the system
+print "Bode plot for the system"
 figure(2)
-mag,phase,om = bode(sys, logspace(-2, 2),Plot=True)
+mag,phase,om = bode(sys, logspace(-2, 2), Plot=True)
 
 # Nyquist plot for the system
 figure(3)
